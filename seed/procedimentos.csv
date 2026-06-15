@@ -1,0 +1,625 @@
+cod_proced,descricao
+0101010010,Atividade educativa / orientação em grupo na Atenção Primária
+0101010028,Atividade educativa / orientação em grupo na Atenção Especializada
+0101010036,Prática corporal / atividade física em grupo
+0101010117,Atividade de educação permanente em saúde do trabalhador
+0101020066,Aplicação de selante (por dente)
+0101020074,Aplicação tópica de flúor (individual por sessão)
+0101020090,Selamento provisório de cavidade dentária
+0101020104,Orientação de higiene bucal
+0101030010,Visita domiciliar por profissional de nível médio
+0101030029,Visita domiciliar/institucional por profissional de nível superior
+0101040024,Avaliação antropométrica
+0101050020,Terapia comunitária
+0102010056,Atividades educativas para o setor regulado
+0102010064,Análise de projetos básicos de arquitetura
+0102010072,Cadastro de estabelecimentos sujeitos à Vigilância Sanitária
+0102010145,Inspeção sanitária de hospitais
+0102010161,Exclusão de cadastro de estabelecimentos sujeitos à Vigilância Sanitária com atividades encerradas
+0102010170,Inspeção dos estabelecimentos sujeitos à Vigilância Sanitária
+0102010188,Licenciamento dos estabelecimentos sujeitos à Vigilância Sanitária
+0102010196,Aprovação de projetos básicos de arquitetura
+0102010200,Investigação de surtos de doenças transmitidas por alimentos
+0102010218,Investigação de surtos de infecção em serviços de saúde
+0102010226,Atividade educativa para a população
+0102010234,Recebimento de denúncias/reclamações
+0102010242,Atendimento à denúncias/reclamações
+0102010250,Cadastro de hospitais
+0102010269,Licenciamento sanitário de hospitais
+0102010277,Cadastro de instituições de longa permanência para idosos
+0102010285,Inspeção sanitária de instituições de longa permanência para idosos
+0102010293,Licenciamento sanitário de instituições de longa permanência para idosos
+0102010315,Inspeção sanitária de indústria de medicamentos
+0102010323,Licenciamento sanitário de indústrias de medicamentos
+0102010340,Inspeção sanitária de serviços de diagnóstico e tratamento do câncer de colo de útero e mama
+0102010358,Licenciamento sanitário de serviços de diagnóstico e tratamento do câncer de colo de útero e mama
+0102010366,Cadastro de serviços hospitalares de atenção ao parto e à criança
+0102010374,Inspeção sanitária de serviços hospitalares de atenção ao parto e à criança
+0102010390,Cadastro de serviços de hemoterapia
+0102010404,Inspeção sanitária de serviços de hemoterapia
+0102010412,Licenciamento sanitário de serviços de hemoterapia
+0102010439,Inspeção sanitária de serviços de terapia renal substitutiva
+0102010447,Licenciamento sanitário de serviços de terapia renal substitutiva
+0102010455,Cadastro de serviços de alimentação
+0102010463,Inspeção sanitária de serviços de alimentação
+0102010471,Licenciamento sanitário de serviços de alimentação
+0102010480,"Fiscalização do uso de produtos fumígenos derivados do tabaco em ambientes coletivos fechados, públicos ou privados"
+0102010498,Laudo de análise laboratorial do programa de monitoramento de alimentos recebidos pela Vigilância Sanitária
+0102010501,"Atividades educativas sobre a temática da dengue, realizadas para a população"
+0102010510,"Atividades educativas, com relação ao consumo de sódio, açúcar e gorduras, realizadas para o setor regulado e a população"
+0102010528,Instauração de processo administrativo sanitário
+0102010536,Conclusão de processo administrativo sanitário
+0102010560,Inspeção sanitária de indústrias de insumos farmacêuticos
+0102010579,Inspeção sanitária de indústrias de produtos para saúde
+0102010633,Envio de relatórios de inspeção de estabelecimentos fabricantes de produtos para saúde à ANVISA
+0102020132,Ações inter e intrassetoriais de saúde do trabalhador
+0201010470,Biopsia de tireoide ou paratireoide - PAAF
+0201010500,Biopsia/punção de vagina
+0201010518,Biopsia/punção de vulva
+0201010526,Biopsia dos tecidos moles da boca
+0201010593,Punção de cisterna sub-occipital
+0201010631,Punção lombar
+0201010640,Punção para esvaziamento
+0201010666,Biopsia do colo uterino
+0201020025,Coleta de linfa p/ pesquisa de M. leprae
+0201020033,Coleta de material do colo de útero para exame citopatológico
+0201020041,Coleta de material para exame laboratorial
+0201020050,Coleta de sangue para triagem neonatal
+0202010023,Determinação da capacidade de fixação do ferro
+0202010040,Determinaçãoo de curva glicêmica (2 dosagens)
+0202010074,Determinação de curva glicêmica clássica (5 dosagens)
+0202010112,Dosagem de ácido ascórbico
+0202010120,Dosagem de ácido úrico
+0202010147,Dosagem de aldolase
+0202010155,Dosagem de alfa-1-antitripsina
+0202010163,Dosagem de alfa-1-glicoproteína ácida
+0202010180,Dosagem de amilase
+0202010198,Dosagem de amônia
+0202010201,Dosagem de bilirrubina total e frações
+0202010210,Dosagem de cálcio
+0202010228,Dosagem de cálcio ionizável
+0202010260,Dosagem de cloreto
+0202010279,Dosagem de colesterol HDL
+0202010287,Dosagem de colesterol LDL
+0202010295,Dosagem de colesterol total
+0202010317,Dosagem de creatinina
+0202010325,Dosagem de creatinofosfoquinase (CPK)
+0202010333,Dosagem de creatinofosfoquinase fração MB
+0202010368,Dosagem de desidrogenase lática
+0202010384,Dosagem de ferritina
+0202010392,Dosagem de ferro sérico
+0202010406,Dosagem de folato
+0202010414,Dosagem de fosfatase ácida total
+0202010422,Dosagem de fosfatase alcalina
+0202010430,Dosagem de fósforo
+0202010457,Dosagem de galactose
+0202010465,Dosagem de gama-glutamil-transferase (GAMA GT)
+0202010473,Dosagem de glicose
+0202010481,Dosagem de glicose-6-fosfato desidrogenase
+0202010503,Dosagem de hemoglobina glicosilada
+0202010538,Dosagem de lactato
+0202010554,Dosagem de lipase
+0202010562,Dosagem de magnésio
+0202010570,Dosagem de mucoproteínas
+0202010600,Dosagem de potássio
+0202010619,Dosagem de proteínas totais
+0202010627,Dosagem de proteínas totais e frações
+0202010635,Dosagem de sódio
+0202010643,Dosagem de transaminase glutâmico-oxalacética (TGO)
+0202010651,Dosagem de transaminase glutâmico-pirúvica (TGP)
+0202010660,Dosagem de transferrina
+0202010678,Dosagem de triglicerídeos
+0202010694,Dosagem de ureia
+0202010708,Dosagem de vitamina B12
+0202010724,Eletroforese de proteínas
+0202010732,Gasometria (pH pCO2 pO2 bicarbonato AS2) (excesso ou deficit base)
+0202010759,Teste de tolerância à insulina / hipoglicemiantes orais
+0202010767,Dosagem de 25 hidroxivitamina D
+0202020029,Contagem de plaquetas
+0202020037,Contagem de reticulócitos
+0202020053,Determinação de enzimas eritrocitarias (cada)
+0202020070,Determinação de tempo de coagulação
+0202020096,Determinação de tempo de sangramento - Duke
+0202020100,Determinação de tempo de sangramento de IVY
+0202020126,Determinação de tempo de trombina
+0202020134,Determ. tempo tromboplastina parcial ativada (TTP ativada)
+0202020142,Determinação de tempo e ativ. da protrombina (TAP)
+0202020150,Determ. velocidade de hemossedimentação (VHS)
+0202020223,Dosagem de fator VIII
+0202020290,Dosagem de fibrinogênio
+0202020304,Dosagem de hemoglobina
+0202020355,Eletroforese de hemoglobina
+0202020363,"Eritrograma (eritrócitos, hemoglobina, hematócrito)"
+0202020371,Hematócrito
+0202020380,Hemograma completo
+0202020428,Pesquisa de corpusculos de Heinz
+0202020444,Pesquisa de hemoglobina S
+0202020495,Prova de retração do coágulo
+0202020509,Prova do laço
+0202020541,Teste direto de antiglobulina humana (TAD)
+0202030067,Determinação de complemento (CH50)
+0202030075,Determinação de fator reumatoide
+0202030083,Determinação quantitativa de proteína C reativa
+0202030091,Dosagem de alfa-fetoproteína
+0202030105,Dosagem de antígeno prostático específico (PSA)
+0202030121,Dosagem de complemento C3
+0202030130,Dosagem de complemento C4
+0202030156,Dosagem de imunoglobulina A (IgA)
+0202030164,Dosagem de imunoglobulina E (IgE)
+0202030180,Dosagem de imunoglobulina M (IgM)
+0202030202,Dosagem de proteína C reativa
+0202030245,Intradermorreação com derivado proteico purificado (PPD)
+0202030253,Pesquisa de anticorpo igg anticardiolipina
+0202030261,Pesquisa de anticorpo IgM anticardiolipina
+0202030270,Pesquisa de anticorpos anti-DNA
+0202030300,Pesquisa de anticorpos anti-HIV-1 + HIV-2 (Elisa)
+0202030318,Pesquisa de anticorpos anti-HTLV-1 e anti-HTLV-2
+0202030326,Pesquisa de anticorpos anti-ribonucleoproteína (RNP)
+0202030342,Pesquisa de anticorpos anti-Sm
+0202030350,Pesquisa de anticorpos anti-SS-A (Ro)
+0202030369,Pesquisa de anticorpos anti-SS-B (La)
+0202030466,Pesquisa de anticorpos antiespermatozoides
+0202030474,Pesquisa de anticorpos antiestreptolisina (ASLO)
+0202030555,Pesquisa de anticorpos antimicrossomas
+0202030598,Pesquisa de anticorpos antinúcleo
+0202030628,Pesquisa de anticorpos antitireoglobulina
+0202030636,Pesquisa anticorpos contra antígeno de superf. vírus hepatite B
+0202030644,Pesquisa anticorpos contra antígeno E do vírus hepatite B (anti-HBs)
+0202030679,Pesquisa anticorpos contra o vírus da Hepatite C ( anti-HCV)
+0202030733,Pesq. de anticorpos heterófilos contra vírus Epstein-Barr
+0202030741,Pesq. de anticorpos IgG anticitomegalovírus
+0202030750,Pesquisa de anticorpos IgG antileishmanias
+0202030768,Pesquisa de anticorpos IgG antitoxoplasma
+0202030776,Pesquisa de anticorpos IgG anti-Trypanosoma cruzi
+0202030784,Pesquisa de anticorpos IgG contra antígeno central hepatite B
+0202030792,Pesq. anticorpos IgG contra arbovírus (dengue/febre amarela)
+0202030806,Pesquisa de anticorpos IgG contra vírus hepatite A (HAV-IgG)
+0202030814,Pesquisa de anticorpos IgG contra vírus da rubéola
+0202030822,Pesquisa de anticorpos IgG contra o vírus da varicela-herpes Zóster
+0202030830,Pesquisa de anticorpos IgG contra o vírus Epstein-Barr
+0202030849,Pesquisa de anticorpos IgG contra o vírus herpes simples
+0202030857,Pesquisa de anticorpos IgM anticitomegalovírus
+0202030865,Pesquisa de anticorpos IgM antileishmanias
+0202030873,Pesquisa de anticorpos IgM antitoxoplasma
+0202030881,Pesquisa de anticorpos IgM anti-Trypanosoma cruzi
+0202030890,Pesquisa de anticorpos IgM contra antígeno central do vírus hepatite B (anti-HBC-IgM)
+0202030903,Pesquisa de anticorpos IgM contra arbovírus
+0202030911,Pesquisa de anticorpos IgM contra o vírus da hepatite A (anti-HAV-IgM)
+0202030920,Pesquisa de anticorpos IgM contra vírus da rubéola
+0202030938,Pesquisa de anticorpos IgM contra o vírus da varicela-herpes Zoster
+0202030946,Pesquisa de anticorpos IgM contra o vírus Epstein-Barr
+0202030962,Pesquisa de antígeno carcinoembrionário (CEA)
+0202030970,Pesquisa de antígeno de superf. vírus da hepatite B (HBSAG)
+0202030989,Pesquisa de antígeno e do vírus da hepatite B (HBEAG)
+0202031012,Pesquisa de fator reumatoide (Waaler-Rose)
+0202031110,Teste de VDRL p/ diagnóstico da sífilis
+0202031128,Teste FTA-Abs IgG para diagnóstico da sífilis
+0202031136,Teste FTA-Abs IgM para diagnóstico da sífilis
+0202031179,Teste não treponêmico p/ detecção de sífilis em gestantes
+0202031209,Dosagem de troponina
+0202031217,Dosagem do antígeno CA 125
+0202040054,Pesquisa de Enterobius vermicularis (oxiúros)
+0202040127,Pesquisa de ovos e cistos de parasitas
+0202040143,Pesquisa de sangue oculto nas fezes
+0202050017,"Análise de caracteres físicos, elementos e sedimento da urina"
+0202050025,Clearance de creatinina
+0202050084,Dosagem de citrato
+0202050092,Dosagem de microalbumina na urina
+0202050106,Dosagem de oxalato
+0202050114,Dosagem de proteínas (urina de 24h)
+0202050130,Exame qualitativo de cálculos urinários
+0202050173,Pesquisa de beta-mercapto-lactato-dissulfiduria
+0202050327,Prova de diluição (urina)
+0202060047,Dosagem de 17-alfa-hidroxiprogesterona
+0202060071,Dosagem ácido 5-hidroxi-indol-acético (serotonina)
+0202060098,Dosagem de aldosterona
+0202060110,Dosagem de androstenediona
+0202060128,Dosagem de calcitonina
+0202060136,Dosagem de cortisol
+0202060144,Dosagem de dehidroepiandrosterona (DHEA)
+0202060152,Dosagem de dihidrotestosterona (DHT)
+0202060160,Dosagem de estradiol
+0202060179,Dosagem de estriol
+0202060187,Dosagem de estrona
+0202060195,Dosagem de gastrina
+0202060217,"Dosagem de gonadotrofina coriônica humana (hCG, Beta hCG)"
+0202060225,Dosagem de hormônio de crescimento (HGH)
+0202060233,Dosagem de hormônio folículo-estimulante (FSH)
+0202060241,Dosagem de hormônio luteinizante (LH)
+0202060250,Dosagem de hormônio tireoestimulante (TSH)
+0202060268,Dosagem de insulina
+0202060276,Dosagem de paratormônio
+0202060284,Dosagem de peptídeo C
+0202060292,Dosagem de progesterona
+0202060306,Dosagem de prolactina
+0202060322,Dosagem de somatomedina C (IGF-1)
+0202060330,Dosagem de sulfato de dehidroepiandrosterona (DHEA-S)
+0202060349,Dosagem de testosterona
+0202060357,Dosagem de testosterona livre
+0202060365,Dosagem de tireoglobulina
+0202060373,Dosagem de tiroxina (T4)
+0202060381,Dosagem de tiroxina livre (T4 livre)
+0202060390,Dosagem de triiodotironina (T3)
+0202070050,Dosagem de ácido valproico
+0202070085,Dosagem de alumínio
+0202070255,Dosagem de lítio
+0202070328,Dosagem de sulfatos
+0202070352,Dosagem de zinco
+0202080013,Antibiograma
+0202080030,Antibiograma p/ micobacterias
+0202080048,Baciloscopia direta p/ BAAR tuberculose (diagnóstica)
+0202080056,Baciloscopia direta p/ BAAR (hanseníase)
+0202080064,Baciloscopia direta p/ BAAR (tuberculose)
+0202080072,Bacterioscopia (GRAM)
+0202080080,Cultura de bactérias para identificação
+0202080110,Cultura para BAAR
+0202080145,Exame microbiológico a fresco (direto)
+0202080153,Hemocultura
+0202080196,Pesquisa de estreptococos Beta-Hemolíticos do Grupo A
+0202090027,Adenograma
+0202090051,Contagem específica de células no líquor
+0202090060,Contagem global de células no líquor
+0202090183,Exame de caracteres físicos contagem global e específica de células
+0202090221,Dosagem de fosfatase ácida no esperma
+0202090230,Pesquisa de caracteres físicos no líquor
+0202090264,Pesquisa de espermatozoides (após vasectomia)
+0202090280,Prova de progressão espermática (CASA)
+0202090302,Prova de látex do fator reumatoide
+0202110079,Dosagem de tripsina imunorreativa (componente do teste do pezinho)
+0202120023,Determinação direta e reversa de grupo ABO
+0202120082,Pesquisa de fator Rh (inclui D fraco)
+0202120090,Teste indireto de antiglobulina humana (TIA)
+0203010035,Exame de citologia (exceto cérvico-vaginal e de mama)
+0203020022,Exame anatomopatológico colo uterino - peça cirúrgica
+0203020030,Exame anatomopatológico p/ congelamento/parafina (exc. colo)
+0204010020,Planigrafia de laringe
+0204010039,Radiografia bilateral de órbitas (PA+Oblíquas+Hirtz)
+0204010047,Radiografia de arcada zigomático-malar (AP+Oblíquas)
+0204010055,Radiografia de articulação temporomandibular bilateral
+0204010063,Radiografia de cavum (Lateral+Hirtz)
+0204010071,Radiografia de crânio (PA + Lateral+Oblíqua/Bretton+Hirtz)
+0204010080,Radiografia de crânio (PA + Lateral)
+0204010098,Radiografia de laringe
+0204010101,Radiografia de mastoide/rochedos (Bilateral)
+0204010110,Radiografia de maxilar (PA+Oblíqua)
+0204010128,Radiografia de ossos da face (MN+Lateral+Hirtz)
+0204010136,Radiografia de região orbitária (localização de corpo estranho)
+0204010144,Radiografia de seios da face (FN+MN+Lateral+Hirtz)
+0204010152,Radiografia de sela túrcica (PA+Lateral+Bretton)
+0204010179,Radiografia panorâmica de mandíbula
+0204020034,Radiografia de coluna cervical (AP+Lateral+TO+Oblíquas)
+0204020042,Radiografia de coluna cervical (AP+Lateral+TO/Flexão)
+0204020050,Radiografia de coluna cervical funcional / dinâmica
+0204020069,Radiografia de coluna lombo-sacra
+0204020077,Radiografia de coluna lombo-sacra (c/ Oblíquas)
+0204020085,Radiografia de coluna lombo-sacra funcional/dinâmica
+0204020093,Radiografia de coluna torácica (AP+Lateral)
+0204020107,Radiografia de coluna toracolombar
+0204020115,Radiografia de coluna toracolombar dinâmica
+0204020123,Radiografia de região sacro-coccígea
+0204020131,Radiografia panorâmica de coluna total - telespondilografia
+0204030072,Radiografia de costelas (por hemitórax)
+0204030080,Radiografia do esôfago
+0204030099,Radiografia de esterno
+0204030102,Radiografia de mediastino (PA e perfil)
+0204030129,Radiografia de tórax (ápico-lordórtica)
+0204030137,Radiografia de tórax (PA+Inspiração+Expiração+Lateral)
+0204030145,Radiografia de tórax (PA + lateral + oblíqua)
+0204030153,Radiografia de tórax (PA+Perfil)
+0204030170,Radiografia de tórax (PA)
+0204040019,Radiografia de antebraço
+0204040027,Radiografia de articulação acromo-clavicular
+0204040035,Radiografia de articulação escápulo-umeral
+0204040043,Radiografia de articulação esterno-clavicular
+0204040051,Radiografia de braço
+0204040060,Radiografia de clavícula
+0204040078,Radiografia de cotovelo
+0204040086,Radiografia de dedos da mão
+0204040094,Radiografia de mão
+0204040108,Radiografia de mão e punho (p/ determ. de idade óssea)
+0204040116,Radiografia de omoplata/ombro (três posições)
+0204040124,Radiografia de punho (AP+Lateral+Oblíqua)
+0204050014,Clister opaco c/ duplo contraste
+0204050111,Radiografia de abdômen (AP+Lateral/localizada)
+0204050120,Radiografia de abdômen agudo (mínimo 3 incidências)
+0204050138,Radiografia de abdômen simples (AP)
+0204050154,Radiografia de intestino delgado ( trânsito )
+0204050189,Urografia venosa
+0204060036,Escanometria
+0204060060,Radiografia de articulação coxo-femoral
+0204060079,Radiografia de articulação sacro-ilíaca
+0204060087,Radiografia de articulação tibiotársica
+0204060095,Radiografia de bacia
+0204060109,Radiografia de calcâneo
+0204060117,Radiografia de coxa
+0204060125,Radiografia de joelho (AP+Lateral)
+0204060133,Radiografia de joelho ou patela (AP + Lateral+ Axial)
+0204060141,Radiografia de joelho ou patela (AP+Lateral+Oblíqua+3 axiais)
+0204060150,Radiografia de pé/dedos do pé
+0204060168,Radiografia de perna
+0204060176,Radiografia panorâmica de membros inferiores
+0205010032,Ecocardiografia transtorácica
+0205010040,Ultrassonografia Doppler colorido de vasos
+0205020038,Ultrassonografia de abdômen superior
+0205020046,Ultrassonografia de abdômen total
+0205020054,Ultrassonografia de aparelho urinário
+0205020062,Ultrassonografia de articulação
+0205020070,Ultrassonografia de bolsa escrotal
+0205020097,Ultrassonografia de mama
+0205020100,Ultrassonografia de próstata (via abdominal)
+0205020119,Ultrassonografia de próstata (via transretal)
+0205020127,Ultrassonografia de tireóide
+0205020135,Ultrassonografia de tórax (extracardíaca)
+0205020143,Ultrassonografia obstétrica
+0205020160,Ultrassonografia pélvica (ginecológica)
+0205020186,Ultrassonografia transvaginal
+0206010010,Tomografia computadorizada de coluna cervical c/ ou s/ contraste
+0206010028,Tomografia computadorizada de coluna lombo-sacra c/ ou s/ contraste
+0206010036,Tomografia computadorizada de coluna torácica c/ ou s/ contraste
+0206010044,Tomografia computadorizada de face / seios da face / articulações temporomandibulares
+0206010052,Tomografia computadorizada do pescoço
+0206010060,Tomografia computadorizada de sela túrcica
+0206010079,Tomografia computadorizada do crânio
+0206020015,Tomografia computadorizada de articulações de membro superior
+0206020023,"Tomografia computadorizada de segmentos apendiculares - (braço, antebraço, mão, coxa, perna, pé)"
+0206020031,Tomografia computadorizada de tórax
+0206030010,Tomografia computadorizada de abdômen superior
+0206030029,Tomografia computadorizada de articulações de membro inferior
+0206030037,Tomografia computadorizada de pelve / bacia / abdômen inferior
+0207010048,Ressonancia magnetica de coluna lombo-sacra
+0207010064,Ressonância magnética de crânio
+0207010072,Ressonância magnética de sela túrcica
+0207020027,Ressonância magnética de membro superior (unilateral)
+0207030022,Ressonância magnética de bacia / pelve / abdômen inferior
+0208010033,Cintilografia de miocárdio p/ avaliação da perfusão em situação de repouso (mínimo 3 projeções)
+0209010029,Colonoscopia (coloscopia)
+0209010037,Esofagogastroduodenoscopia
+0210010029,Angiografia de arco aórtico
+0211020036,Eletrocardiograma
+0211020044,Monitoramento pelo sistema Holter 24h (3 canais)
+0211020052,Monitorização ambulatorial de pressão arterial
+0211020060,Teste de esforço / teste ergométrico
+0211040010,Amnioscopia
+0211040029,Colposcopia
+0211040061,Tococardiografia ante-parto
+0211050032,Eletroencefalograma em sono induzido c/ ou s/ medicamento (EEG)
+0211050059,Eletroencefalograma quantitativo c/ mapeamento (EEG)
+0211060020,Biomicroscopia de fundo de olho
+0211060100,Fundoscopia
+0211060275,Triagem oftalmológica
+0211070025,Audiometria de reforco visual (via aerea / ossea)
+0211070041,Audiometria tonal limiar (via aérea / óssea)
+0211070068,Avaliação de linguagem escrita / leitura
+0211070122,Eletrococleografia
+0211070149,Emissões otoacúst. evocadas p/ triagem auditiva (teste da orelhinha)
+0211070157,Estudo de emissões otoacústicas evocadas transitórias e produtos de distorção (EOA)
+0211070343,Testes de processamento auditivo
+0211080020,Gasometria
+0211080055,Espirometria ou prova de função pulmonar completa com broncodilatador
+0214010015,Glicemia capilar
+0214010023,Pesquisa de corpos cetônicos na urina
+0214010058,Teste rápido para detecção de infecção pelo HIV
+0214010066,Teste rápido de gravidez
+0214010074,Teste rápido para sífilis
+0214010090,Teste rápido para detecção de hepatite C
+0214010104,Teste rápido para detecção de infecção pelo HBV
+0214010163,Teste rápido para detecção de SARS-CoV-2
+0214010198,Teste rápido LF-LAM para tuberculose
+0301010021,Consulta com identificação de casos novos de tuberculose
+0301010030,Consulta de profissionais de nível superior na Atenção Primária (exceto médico)
+0301010048,Consulta de prof. nível superior na Atenção Especializada (exceto médico)
+0301010064,Consulta médica em Atenção Primária
+0301010072,Consulta médica em Atenção Especializada
+0301010110,Consulta pré-natal
+0301010129,Consulta puerperal
+0301010137,Consulta/atendimento domiciliar
+0301010153,Primeira consulta odontologica programatica
+0301010161,Consulta/atendimento domiciliar na atenção especializada
+0301010269,Avaliação do crescimento na puericultura
+0301010277,Avaliação do desenvolvimento da criança na puericultura
+0301010307,Teleconsulta médica na atenção especializada
+0301010315,Teleconsulta por profissionais de nível superior na Atenção Especializada (exceto médico)
+0301030073,Atend. pré-hospitalar móvel de salvamento e resgate medicalizado
+0301030090,SAMU 192: atendimento pré-hospitalar móvel realizado pela equipe da unidade de suporte avançado de vida terrestre (USA)
+0301030103,SAMU 192: atendimento pré-hospitalar móvel realizado pela equipe de suporte básico de vida terrestre (USB)
+0301030111,Regulação médica de urgencia da central SAMU 192 c/ acionamento de múltiplos meios
+0301030170,SAMU 192: transporte inter-hospitalar pela unidade de suporte avançado de vida terrestre (USA)
+0301030189,SAMU 192: transporte inter-hospitalar pela unidade de suporte básico de vida terrestre (USB)
+0301040036,Terapia em grupo
+0301040044,Terapia individual
+0301040079,Escuta inicial e orientação no acolhimento à demanda espontânea
+0301040141,Inserção do Dispositivo Intrauterino (DIU)
+0301040150,Retirada do Dispositivo Intrauterino (DIU)
+0301040176,Inserção do implante subdérmico liberador de etonogestrel
+0301040184,Retirada do implante subdérmico liberador de etonogestrel
+0301050031,Assistência domiciliar por equipe multiprofissional na atenção especializada
+0301050112,Administração de imunoderivados (oral e/ou parenteral)
+0301050139,Busca ativa
+0301050147,Visita domiciliar por profissional de nível superior
+0301060029,Atend. de urgência c/ observação 24h em Atenção Especializada
+0301060037,Atendimento de urgência em atenção básica
+0301060045,Atendimento de urgência em Atenção Primária com observação até 8 horas
+0301060053,Atend. de urgência em Atenção Primária c/ remoção
+0301060061,Atend. de urgência em Atenção Especializada
+0301060096,Atend. médico em Unidade de Pronto Atendimento
+0301060100,Atend. ortopédico c/ imobilização provisória
+0301060118,Acolhimento com classificação de risco
+0301070040,Acompanhamento neuropsicológico de paciente em reabilitação
+0301070067,Atendimento / acompanhamento em reabilitação nas multiplas deficiências
+0301070075,Atendimento / acompanhamento de paciente em reabilitacao do desenvolvimento neuropsicomotor
+0301070105,Atendimento/acompanhamento intensivo de paciente em reabilitação física (1 turno paciente-dia - 15 atendimentos-mês)
+0301070113,Terapia fonoaudiológica individual
+0301070288,Alta por objetivos terapêuticos alcançados da reabilitação na atenção especializada
+0301080011,Abordagem cognitiva comportamental do fumante (por atendimento / paciente)
+0301080143,Atendimento em Oficina Terapêutica I - saúde mental
+0301080151,Atendimento em Oficina Terapêutica II - saúde mental
+0301080160,Atendimento em psicoterapia de grupo
+0301080232,Acolhimento inicial por centro de atenção psicossocial
+0301080259,Ações de articulação de redes intra e intersetoriais
+0301080267,Fortalecimento do protagonismo de usuários de centro de atenção psicossocial e seus familiares
+0301080305,Matriciamento de equipes da Atenção Básica
+0301080313,Ações de redução de danos
+0301080321,Acompanhamento de serviço residencial terapêutico por Centro de Atenção Psicossocial
+0301080330,Apoio à serviço residencial de caráter transitório por Centro de Atenção Psicossocial
+0301080399,"Matriciamento de equipes dos pontos de atenção da urgência e emergência, e dos serviços hospitalares de referência para atenção a pessoas com sofrimento ou transtornos mentais e com necessidades de saúde decorrente do uso de alcool, crack e outras d"
+0301100012,Admin. de medicamentos na Atenção Especializada (por paciente)
+0301100020,Admin. de medicamentos na Atenção Básica (por paciente)
+0301100039,Aferição de pressão arterial
+0301100047,Cateterismo vesical de alívio
+0301100055,Cateterismo vesical de demora
+0301100063,Cuidados com estomas
+0301100071,Cuidados c/ traqueostomia
+0301100098,Enema
+0301100101,Inalação/Nebulização
+0301100128,Lavagem gástrica
+0301100152,Retirada pontos de cirurgias (por paciente)
+0301100179,Sondagem Gástrica
+0301100187,Terapia de reidratação oral
+0301100209,Administração de medicamentos por via intramuscular
+0301100217,Administração de medicamentos por via oral
+0301100241,Administração de penicilina para tratamento de sífilis
+0301100276,Curativo Especial
+0301100284,Curativo simples
+0301120021,Acompanhamento de paciente com fibrose cística
+0302020039,Atendimento fisioterapêutico em paciente no pré e pós cirurgia oncológica
+0302030018,Atendimento fisioterapêutico em pacientes com alterações oculomotoras centrais c/ comprometimento sistêmico
+0302040013,Atendimento fisioterapêutico em paciente com transtorno respiratório com complicações sistêmicas
+0302040021,Atend. fisioterapêutico em paciente c/ transtorno resp. s/ complic. sistêmicas
+0302040056,Atendimento fisioterapêutico nas disfunções vasculares periféricas
+0302050019,Atendimento fisioterapêutico em pacientes no pré e pós-operatório nas disfunções músculo esqueléticas
+0302050027,Atendimento fisioterapêutico nas alterações motoras
+0302060014,Atendimento fisioterapêutico em pacientes com distúrbios neuro-cinético-funcionais sem complicações sistêmicas
+0302060030,Atendimento fisioterapêutico nas desordens do desenvolvimento neuromotor
+0303070030,Remoção manual de fecaloma
+0303070048,Retirada de corpo estranho do esôfago
+0303080019,Cauterização química de pequenas lesões
+0303090014,Artrocentese de grandes articulações
+0303090030,"Infiltração de substâncias em cavidade sinovial (artic., bainha tendinosa)"
+0303090073,Revisão c/ troca de aparelho gessado em membro inferior
+0303090081,Revisão c/ imob. não gessada em lesão da coluna vertebral
+0303090090,Revisão c/ troca de aparelho gessado em membro superior
+0303090111,Revisão c/ troca aparelho gessado em lesão coluna vertebral
+0303090120,Tratamento conservador de fratura de cintura escapular (c/ imob.)
+0303090146,Tratamento conservador de fratura de costelas
+0303090154,Tratamento conservador de fratura de punho c/ luva gessada
+0303090162,Trat. conservador de fratura osso metacarp. c/ tala alumin./luva gessada
+0303090200,Trat. conservador de fratura membro inferior c/ imobilização
+0303090219,Trat. conserv. de lesão da coluna cervical c/ imobilização
+0303090227,Tratamento conservador de fratura em membro superior c/ imob.
+0303090235,Tratamento conservador de lesão da coluna toracolombar sacra
+0303090260,Tratamento conservador de lesão de mecanismo extensor de dedos
+0303090286,Tratamento conserv. de lesão ligamentar em membro c/ imob.
+0303140011,Lavagem nasal pelo método de Proetz (por sessão)
+0303190019,Tratamento em reabilitação
+0306020068,Transfusão de concentrado de hemácias
+0306020076,Transfusão de concentrado de plaquetas
+0307010015,Capeamento pulpar
+0307010031,Restauração de dente permanente anterior com resina composta
+0307010074,Tratamento restaurador atraumático (TRA/ART)
+0307010082,Restauração de dente decíduo posterior com resina composta
+0307010104,Restauração de dente decíduo posterior com ionômero de vidro
+0307010112,Restauração de dente decíduo anterior com resina composta
+0307010120,Restauração de dente permanente posterior com resina composta
+0307010139,Restauração de dente permanente posterior com amálgama
+0307010147,Adequação do comportamento da pessoa com deficiência
+0307020010,Acesso à polpa dentária e medicação (por dente)
+0307020029,Curativo de demora c/ ou s/ preparo biomecânico
+0307020037,Tratamento cirúrgico de hemorragia buco-dental
+0307020045,Tratamento endodôntico de dente permanente birradicular
+0307020053,Tratamento endodôntico de dente permanente com três ou mais raízes
+0307020061,Tratamento endodôntico de dente permanente unirradicular
+0307020070,Pulpotomia dentária
+0307020096,Retratamento endodôntico em dente permanente com 3 ou mais raízes
+0307020100,Retratamento endodôntico em dente permanente unirradicular
+0307030024,Raspagem alisamento subgengivais (por sextante)
+0307030032,Raspagem corono-radicular (por sextante)
+0307030040,Profilaxia / remoção da placa bacteriana
+0307030059,Raspagem alisamento e polimento supragengivais (por sextante)
+0307030083,Tratamento de pericoronarite
+0307040011,Colocação de placa de mordida
+0307040070,Moldagem dento-gengival p/ construção de prótese dentária
+0307040089,Reembasamento e conserto de prótese dentária
+0307040135,Cimentação de prótese dentária
+0307040143,Adaptação de prótese dentária
+0307040151,Ajuste oclusal
+0307040160,Instalação de prótese dentária
+0309030013,Cateterismo evacuador de bexiga
+0309030048,Criocauterização / eletrocoagulação de colo de útero
+0309050014,Sessão de acupuntura aplicação de ventosas / moxa
+0309050022,Sessão de acupuntura com inserção de agulhas
+0309050030,Sessão de eletroestimulação
+0309050073,Tratamento naturopático
+0309050081,Tratamento osteopático
+0401010015,Curativo grau II c/ ou s/ debridamento
+0401010023,Curativo grau I c/ ou s/ debridamento
+0401010031,Drenagem de abcesso
+0401010040,Eletrocoagulação de lesão cutânea
+0401010058,Excisão de lesão e/ou sutura de ferim. pele/anexos e mucosa
+0401010066,Excisão e/ou sutura simples peq. lesões/ferim. de pele/anexos e mucosa
+0401010074,Exérese de tumor de pele e anexos/cisto sebáceo/lipoma
+0401010082,Frenéctomia/frenotomia
+0401010090,Fulguração / cauterização química de lesões cutâneas
+0401010104,Incisão e drenagem de abcesso
+0401010112,Retirada de corpo estranho subcutâneo
+0404010075,Drenagem de furúnculo no conduto auditivo externo
+0404010156,Infiltração medicamentosa em corneto inferior
+0404010270,Remoção de cerúmen de conduto auditivo externo uni/bilateral
+0404010300,Retirada de corpo estranho da cavidade auditiva e nasal
+0404010318,Retirada de corpo estranho de ouvido/faringe/laringe/nariz
+0404010342,Tamponamento nasal anterior e/ou posterior
+0407010254,Retirada de pólipo do tubo digestivo por endoscopia
+0407040196,Paracentese abdominal
+0408010126,Redução incruenta fratura/luxação ao nível da cintura escapular
+0408010134,Redução incruenta de luxação/fratura escapulo umeral
+0408020164,Redução incruenta de fratura/lesão fisária extremo prox. úmero
+0408020172,Redução incruenta de fratura/lesão fisária no punho
+0408020180,Redução incruenta de fratura/luxação de Monteggia/Galeazzi
+0408020199,Redução incruenta de fratura diáfise do úmero
+0408020202,Redução incruenta de fratura diafisária ossos antebraço
+0408020210,Redução incruenta de fratura dos metacarpianos
+0408020217,Redução incruenta de fratura/luxação do tornozelo
+0408020229,Redução incruenta de luxação/fratura do cotovelo
+0408020245,Redução incruenta de luxação ou fratura do punho
+0408040351,Trat. articulação coxo-femoral c/ imobilização gessada
+0408050195,Redução incruenta luxação/fratura metatarso-falange/interfalange
+0408050209,Redução incruenta de fratura lesão fisária metatarsianos
+0408050217,Redução incruenta de fratura/luxação do tornozelo
+0408050225,Redução incruenta de fratura diafisária/lesão fisária distal tíbia
+0408050241,Redução incruenta de fratura dos ossos do tarso
+0408050250,Redução incruenta de fratura/lesão fisária do joelho
+0408050268,Redução incruenta de luxação/fratura do joelho
+0408050276,Redução incruenta de luxação femoropatelar
+0408050292,Redução incruenta de luxação ou fratura tarsometatársica
+0408060352,Retirada de fio ou pino intra-osseo
+0408060654,Tratamento cirúrgico de polidactilia não articulada
+0409010359,Punção / aspiração da bexiga
+0409060097,Exérese de pólipo de útero
+0409070122,Drenagem de glândula de Bartholin/Skene
+0409070173,Extração de corpo estranho da vagina
+0412030020,Drenagem de pleura
+0412050170,Toracocentese/drenagem de pleura
+0413010023,Atend. de urgência em pequeno queimado
+0414020073,Curetagem periapical
+0414020120,Exodontia de dente decíduo
+0414020138,Exodontia de dente permanente
+0414020200,Marsupialização de cistos e pseudocistos
+0414020219,Odontosecção / radicectomia / tunelização
+0414020278,Remoção de dente retido (incluso / impactado)
+0414020367,Tratamento cirúrgico para tracionamento dental
+0415040043,Debridamento de úlcera/necrose
+0417010052,Anestesia regional
+0417010060,Sedação
+0701050012,Bolsa de colostomia fechada com adesivo microporoso
+0701050020,Bolsa de colostomia com adesivo microporoso drenável
+0701050047,Conjunto de placa e bolsa para estoma intestinal
+0701060026,Bolsa coletora p/ urostomizados
+0701060042,Conjunto de placa e bolsa para urostomizados
+0701070056,Coroa provisória
+0701070099,Prótese parcial mandibular removível
+0701070102,Prótese parcial maxilar removível
+0701070110,Prótese temporária
+0701070129,Prótese Total Mandibular
+0701070137,Prótese Total Maxilar
+0803010109,Unid. de remuneração p/ deslocamento de acompanhante por transp. terrestre (cada 50 km de distância)
+0803010125,Unid. de remuneração p/ deslocamento de paciente por transp. terrestre (cada 50km)
+0102010153,Investigação de eventos adversos e/ou queixas técnicas

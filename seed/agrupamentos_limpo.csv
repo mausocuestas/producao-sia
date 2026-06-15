@@ -1,0 +1,710 @@
+cod_proced,cod_cbo,natureza,especialidade,nivel_atencao
+0301080267,251605,Ações Coletivas e Educativas,Assistência Social,CONTEXTUAL
+0301040036,251605,Ações Coletivas e Educativas,Assistência Social,CONTEXTUAL
+0101010028,223505,Ações Coletivas e Educativas,Saúde Mental / CAPS,ESPECIALIZADA
+0101010028,251510,Ações Coletivas e Educativas,Saúde Mental / CAPS,ESPECIALIZADA
+0101010028,251605,Ações Coletivas e Educativas,Assistência Social,ESPECIALIZADA
+0301040036,223810,Ações Coletivas e Educativas,Ginecologia e Obstetrícia,CONTEXTUAL
+0301040036,251510,Ações Coletivas e Educativas,Ginecologia e Obstetrícia,CONTEXTUAL
+0301040036,223905,Ações Coletivas e Educativas,Terapia Ocupacional,CONTEXTUAL
+0102010226,352210,Ações Coletivas e Educativas,Vigilância Sanitária,VIGILANCIA
+0301080259,251605,Ações de Rede e Matriciamento,Assistência Social,CONTEXTUAL
+0301080259,224140,Ações de Rede e Matriciamento,Saúde Mental / CAPS,CONTEXTUAL
+0301080305,224140,Ações de Rede e Matriciamento,Saúde Mental / CAPS,APS
+0301080305,322205,Ações de Rede e Matriciamento,Saúde Mental / CAPS,APS
+0408040351,225270,Ações de Rede e Matriciamento,Ortopedia,CONTEXTUAL
+0301080305,251605,Ações de Rede e Matriciamento,Assistência Social,APS
+0301080330,322205,"Acolhimento, Visita e Intervenção Territorial",Enfermagem,CONTEXTUAL
+0301080330,251605,"Acolhimento, Visita e Intervenção Territorial",Assistência Social,CONTEXTUAL
+0301080321,224140,"Acolhimento, Visita e Intervenção Territorial",Saúde Mental / CAPS,CONTEXTUAL
+0301080232,251605,"Acolhimento, Visita e Intervenção Territorial",Assistência Social,CONTEXTUAL
+0101030029,251605,"Acolhimento, Visita e Intervenção Territorial",Assistência Social,CONTEXTUAL
+0301080330,251510,"Acolhimento, Visita e Intervenção Territorial",Ginecologia e Obstetrícia,CONTEXTUAL
+0301060029,225125,Consulta,Clínica Médica,URGENCIA
+0301060029,225150,Consulta,Clínica Médica,URGENCIA
+0301060029,225225,Consulta,Clínica Médica,URGENCIA
+0301060061,225125,Consulta,Clínica Médica,URGENCIA
+0301060096,225109,Consulta,Clínica Médica,URGENCIA
+0301060096,225125,Consulta,Clínica Médica,URGENCIA
+0301060096,225150,Consulta,Clínica Médica,URGENCIA
+0301060096,225225,Consulta,Clínica Médica,URGENCIA
+0301060096,225320,Consulta,Clínica Médica,URGENCIA
+0301060100,225125,Consulta,Clínica Médica,CONTEXTUAL
+0301060100,225225,Consulta,Clínica Médica,CONTEXTUAL
+0301060100,225320,Consulta,Clínica Médica,CONTEXTUAL
+0301060096,225170,Consulta,Clínica Médica,URGENCIA
+0301010072,225125,Consulta,Clínica Médica,ESPECIALIZADA
+0301010072,225170,Consulta,Clínica Médica,ESPECIALIZADA
+0301010072,225225,Consulta,Clínica Médica,ESPECIALIZADA
+0301060029,225250,Consulta,Ginecologia e Obstetrícia,URGENCIA
+0301060061,225250,Consulta,Ginecologia e Obstetrícia,URGENCIA
+0301060096,225250,Consulta,Ginecologia e Obstetrícia,URGENCIA
+0301060100,225250,Consulta,Ginecologia e Obstetrícia,CONTEXTUAL
+0301010072,225250,Consulta,Ginecologia e Obstetrícia,ESPECIALIZADA
+0301060029,225270,Consulta,Ortopedia,URGENCIA
+0301060061,225270,Consulta,Ortopedia,URGENCIA
+0301060096,225270,Consulta,Ortopedia,URGENCIA
+0301060100,225270,Consulta,Ortopedia,CONTEXTUAL
+0301010072,225270,Consulta,Ortopedia,ESPECIALIZADA
+0301060029,225124,Consulta,Pediatria,URGENCIA
+0301060061,225124,Consulta,Pediatria,URGENCIA
+0301060096,225124,Consulta,Pediatria,URGENCIA
+0301060100,225124,Consulta,Pediatria,CONTEXTUAL
+0301010072,225124,Consulta,Pediatria,ESPECIALIZADA
+0301010048,251605,Consulta,Assistência Social,ESPECIALIZADA
+0301060118,223505,Consulta,Enfermagem,CONTEXTUAL
+0301010048,223505,Consulta,Enfermagem,ESPECIALIZADA
+0302040021,223605,Consulta,Fisioterapia,CONTEXTUAL
+0302050019,223605,Consulta,Fisioterapia,CONTEXTUAL
+0302050027,223605,Consulta,Fisioterapia,CONTEXTUAL
+0301010048,223605,Consulta,Fisioterapia,ESPECIALIZADA
+0301010048,223710,Consulta,Nutrição,ESPECIALIZADA
+0301010048,251510,Consulta,Ginecologia e Obstetrícia,ESPECIALIZADA
+0205010032,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205020038,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205020046,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205020054,225225,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205020054,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205020062,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205020070,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205020097,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205020100,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205020119,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205020127,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205020135,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205010040,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205020143,225124,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205020143,225125,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205020143,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205020160,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0205020186,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0202090221,225124,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0202090221,225125,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0211020036,322230,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0211020036,225120,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0211020036,225225,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0211020036,225203,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0211020036,225125,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0211020036,225250,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0211020036,225270,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0211020036,225124,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0211020036,322205,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0211050059,225125,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0211070149,223810,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0211060100,225265,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0211020052,225125,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0211040061,225250,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0211040061,225125,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204060036,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204010039,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204050111,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204050120,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204050138,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204040019,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204010047,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204040027,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204060060,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204040035,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204040043,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204060079,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204010055,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204060087,225125,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204060087,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204060095,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204040051,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204060109,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204010063,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204040060,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204020042,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204020034,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204020050,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204020069,225125,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204020069,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204020077,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204020085,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204020093,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204020107,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204020115,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204030072,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204040078,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204060117,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204010080,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204010071,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204040086,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204030099,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204050154,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204060125,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204060133,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204060141,225270,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204060141,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204010098,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204040094,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204040108,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204010101,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204010110,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204030102,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204040116,225125,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204040116,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204010128,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204060150,225270,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204060150,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204060168,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204040124,225225,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204040124,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204010136,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204020123,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204010144,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204010152,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204030129,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204030145,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204030170,225124,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204030170,225125,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204030170,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204030137,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204030153,225125,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204030153,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204030080,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204020131,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204010179,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204060176,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0206030010,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0206030029,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0206020015,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0206010010,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0206010028,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0206010036,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0206010044,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0206030037,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0206020023,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0206010060,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0206020031,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0206010079,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0206010052,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0204050189,225320,Exame de Imagem / Diagnóstico,Diagnóstico por Imagem,APOIO_DIAGNOSTICO
+0202050017,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202050017,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202050017,225124,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202050017,225125,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202050017,225320,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202080013,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202080056,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202080064,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202080048,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202080048,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202080072,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202080072,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202050025,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020029,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020029,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020037,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202090051,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202090060,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202090060,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202080080,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202080080,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202080110,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202080110,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020134,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020134,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020150,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020150,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010023,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030067,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010074,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030075,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020070,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020096,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020100,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020142,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020142,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202120023,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202120023,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030083,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060071,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060047,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010767,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010120,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010120,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202070050,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010147,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060098,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010163,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030091,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010180,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010180,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060110,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030105,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010201,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010201,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010210,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010210,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010228,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060128,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202050084,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010260,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010260,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010279,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010287,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010295,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030121,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030130,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060136,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010317,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010317,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010325,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010325,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010325,225320,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010333,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010333,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010333,225320,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010368,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010368,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060152,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060160,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060179,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060187,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010384,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010392,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020290,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010406,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010414,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010422,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010422,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010430,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010465,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010465,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060195,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010473,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010473,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060217,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060217,225125,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060217,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020304,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020304,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010503,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060233,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060241,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060250,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060250,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030164,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030180,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060268,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010538,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010538,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010554,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202070255,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010562,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010562,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202050092,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010570,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202050106,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060276,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060284,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010600,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060292,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060306,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030202,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030202,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030202,225124,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030202,225125,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030202,225225,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030202,225250,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030202,225355,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202050114,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010619,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010619,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010627,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010627,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010635,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010635,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010635,225125,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060330,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202070328,225270,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060349,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060357,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060365,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060373,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060373,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060381,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010643,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010643,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010651,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010651,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010660,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010678,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060390,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202031209,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010694,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010694,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010708,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202031217,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202060144,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020355,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010724,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020363,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020363,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0203020022,225148,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0203020030,225125,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0203020030,225325,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0203020030,225225,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0203020030,225250,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0203020030,225270,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0203010035,225310,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202080145,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202050130,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010732,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202010732,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020371,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020371,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202080153,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202080153,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020380,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020380,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020380,225320,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030792,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030733,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030741,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030636,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030636,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030644,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030679,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030270,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030300,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030300,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030326,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030342,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030350,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030369,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030466,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030474,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030555,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030598,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030628,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030776,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030750,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030768,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030784,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030784,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030822,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030830,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030814,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030806,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030881,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030857,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030865,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030873,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030890,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030890,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030938,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030946,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030920,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030911,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030962,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030970,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030970,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202030989,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202090230,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202040054,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202080196,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202031012,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202120082,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202120082,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020444,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202040127,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202040143,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202050327,225124,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202090302,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202090280,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020495,225124,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020495,225125,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020495,225250,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020495,225270,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202031110,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202031110,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202020541,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202031128,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202031136,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202120090,223415,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0202031179,221105,Exame Laboratorial,Laboratório Clínico,APOIO_DIAGNOSTICO
+0701050020,223505,Materiais e OPMEs,,CONTEXTUAL
+0701050047,223505,Materiais e OPMEs,,CONTEXTUAL
+0301100020,322230,Procedimento,Enfermagem,APS
+0301100012,322205,Procedimento,Enfermagem,ESPECIALIZADA
+0301100012,322230,Procedimento,Enfermagem,ESPECIALIZADA
+0301100039,322230,Procedimento,Enfermagem,CONTEXTUAL
+0301030073,322205,Procedimento,Enfermagem,CONTEXTUAL
+0301030073,322230,Procedimento,Enfermagem,CONTEXTUAL
+0301100047,322230,Procedimento,Enfermagem,CONTEXTUAL
+0201020041,225225,Procedimento,Enfermagem,CONTEXTUAL
+0201020041,322205,Procedimento,Enfermagem,CONTEXTUAL
+0201020041,322230,Procedimento,Enfermagem,CONTEXTUAL
+0201020050,322230,Procedimento,Enfermagem,CONTEXTUAL
+0401010023,322230,Procedimento,Enfermagem,CONTEXTUAL
+0301100284,322205,Procedimento,Enfermagem,CONTEXTUAL
+0301100284,322230,Procedimento,Enfermagem,CONTEXTUAL
+0301100101,322205,Procedimento,Enfermagem,CONTEXTUAL
+0301100101,322230,Procedimento,Enfermagem,CONTEXTUAL
+0301100152,322230,Procedimento,Enfermagem,CONTEXTUAL
+0301100152,322205,Procedimento,Enfermagem,CONTEXTUAL
+0301100187,322230,Procedimento,Enfermagem,CONTEXTUAL
+0309050022,223288,Procedimento,Saúde Mental / CAPS,CONTEXTUAL
+0309050030,223288,Procedimento,Saúde Mental / CAPS,CONTEXTUAL
+0202090027,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0202090027,225225,Procedimento,Clínica Médica,CONTEXTUAL
+0417010052,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0309030013,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0301100047,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0301100055,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0209010029,225310,Procedimento,Clínica Médica,CONTEXTUAL
+0401010023,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0401010015,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0301100284,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0301100284,225225,Procedimento,Clínica Médica,CONTEXTUAL
+0415040043,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0401010031,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0404010075,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0409070122,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0412030020,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0209010037,225310,Procedimento,Clínica Médica,CONTEXTUAL
+0401010058,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0401010058,225225,Procedimento,Clínica Médica,CONTEXTUAL
+0401010066,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0401010074,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0301100101,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0301100101,225225,Procedimento,Clínica Médica,CONTEXTUAL
+0401010104,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0303090030,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0404010156,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0301100128,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0303140011,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0407040196,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0409010359,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0409010359,225225,Procedimento,Clínica Médica,CONTEXTUAL
+0201010631,225250,Procedimento,Clínica Médica,CONTEXTUAL
+0201010640,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0408020172,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0408020202,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0408050225,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0408050241,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0408050250,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0408020164,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0408050217,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0408020245,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0408050292,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0408020229,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0408050268,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0408010134,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0408010126,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0408050195,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0404010270,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0303070030,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0303070030,225150,Procedimento,Clínica Médica,CONTEXTUAL
+0303070030,225225,Procedimento,Clínica Médica,CONTEXTUAL
+0303070030,225250,Procedimento,Clínica Médica,CONTEXTUAL
+0303070030,225270,Procedimento,Clínica Médica,CONTEXTUAL
+0404010300,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0404010318,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0401010112,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0407010254,225310,Procedimento,Clínica Médica,CONTEXTUAL
+0301100152,225225,Procedimento,Clínica Médica,CONTEXTUAL
+0301100152,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0303090073,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0303090090,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0404010342,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0306020068,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0306020068,225150,Procedimento,Clínica Médica,CONTEXTUAL
+0306020068,225225,Procedimento,Clínica Médica,CONTEXTUAL
+0306020076,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0303090200,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0303090162,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0303090260,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0303090286,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0303090120,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0303090154,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0303090227,225125,Procedimento,Clínica Médica,CONTEXTUAL
+0417010052,225250,Procedimento,Ginecologia e Obstetrícia,CONTEXTUAL
+0409070122,225250,Procedimento,Ginecologia e Obstetrícia,CONTEXTUAL
+0401010058,225250,Procedimento,Ginecologia e Obstetrícia,CONTEXTUAL
+0401010074,225250,Procedimento,Ginecologia e Obstetrícia,CONTEXTUAL
+0409070173,225250,Procedimento,Ginecologia e Obstetrícia,CONTEXTUAL
+0401010104,225250,Procedimento,Ginecologia e Obstetrícia,CONTEXTUAL
+0408020202,225250,Procedimento,Ginecologia e Obstetrícia,CONTEXTUAL
+0401010112,225250,Procedimento,Ginecologia e Obstetrícia,CONTEXTUAL
+0301100152,225250,Procedimento,Ginecologia e Obstetrícia,CONTEXTUAL
+0306020068,225250,Procedimento,Ginecologia e Obstetrícia,CONTEXTUAL
+0303090014,225270,Procedimento,Ortopedia,CONTEXTUAL
+0401010015,225270,Procedimento,Ortopedia,CONTEXTUAL
+0301100284,225270,Procedimento,Ortopedia,CONTEXTUAL
+0415040043,225270,Procedimento,Ortopedia,CONTEXTUAL
+0401010031,225270,Procedimento,Ortopedia,CONTEXTUAL
+0401010058,225270,Procedimento,Ortopedia,CONTEXTUAL
+0401010066,225270,Procedimento,Ortopedia,CONTEXTUAL
+0401010074,225270,Procedimento,Ortopedia,CONTEXTUAL
+0401010104,225270,Procedimento,Ortopedia,CONTEXTUAL
+0303090030,225270,Procedimento,Ortopedia,CONTEXTUAL
+0409010359,225270,Procedimento,Ortopedia,CONTEXTUAL
+0201010640,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408020202,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408050225,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408020199,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408050209,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408050250,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408020164,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408020172,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408020180,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408020217,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408050217,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408050276,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408020245,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408050292,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408020229,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408050268,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408010134,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408050241,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408010126,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408050195,225270,Procedimento,Ortopedia,CONTEXTUAL
+0401010112,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408060352,225270,Procedimento,Ortopedia,CONTEXTUAL
+0301100152,225270,Procedimento,Ortopedia,CONTEXTUAL
+0303090081,225270,Procedimento,Ortopedia,CONTEXTUAL
+0303090111,225270,Procedimento,Ortopedia,CONTEXTUAL
+0303090073,225270,Procedimento,Ortopedia,CONTEXTUAL
+0303090090,225270,Procedimento,Ortopedia,CONTEXTUAL
+0303090219,225270,Procedimento,Ortopedia,CONTEXTUAL
+0303090200,225270,Procedimento,Ortopedia,CONTEXTUAL
+0303090162,225270,Procedimento,Ortopedia,CONTEXTUAL
+0408060654,225270,Procedimento,Ortopedia,CONTEXTUAL
+0303090260,225270,Procedimento,Ortopedia,CONTEXTUAL
+0303090286,225270,Procedimento,Ortopedia,CONTEXTUAL
+0303090235,225270,Procedimento,Ortopedia,CONTEXTUAL
+0303090120,225270,Procedimento,Ortopedia,CONTEXTUAL
+0303090146,225270,Procedimento,Ortopedia,CONTEXTUAL
+0303090154,225270,Procedimento,Ortopedia,CONTEXTUAL
+0303090227,225270,Procedimento,Ortopedia,CONTEXTUAL
+0202090027,225124,Procedimento,Pediatria,CONTEXTUAL
+0417010052,225124,Procedimento,Pediatria,CONTEXTUAL
+0413010023,225124,Procedimento,Pediatria,URGENCIA
+0301100047,225124,Procedimento,Pediatria,CONTEXTUAL
+0401010023,225124,Procedimento,Pediatria,CONTEXTUAL
+0401010015,225124,Procedimento,Pediatria,CONTEXTUAL
+0401010031,225124,Procedimento,Pediatria,CONTEXTUAL
+0404010075,225124,Procedimento,Pediatria,CONTEXTUAL
+0209010037,225124,Procedimento,Pediatria,CONTEXTUAL
+0401010058,225124,Procedimento,Pediatria,CONTEXTUAL
+0401010066,225124,Procedimento,Pediatria,CONTEXTUAL
+0401010074,225124,Procedimento,Pediatria,CONTEXTUAL
+0301100101,225124,Procedimento,Pediatria,CONTEXTUAL
+0401010104,225124,Procedimento,Pediatria,CONTEXTUAL
+0301100128,225124,Procedimento,Pediatria,CONTEXTUAL
+0303140011,225124,Procedimento,Pediatria,CONTEXTUAL
+0409010359,225124,Procedimento,Pediatria,CONTEXTUAL
+0408020202,225124,Procedimento,Pediatria,CONTEXTUAL
+0408050225,225124,Procedimento,Pediatria,CONTEXTUAL
+0408020172,225124,Procedimento,Pediatria,CONTEXTUAL
+0408050250,225124,Procedimento,Pediatria,CONTEXTUAL
+0408020164,225124,Procedimento,Pediatria,CONTEXTUAL
+0408050217,225124,Procedimento,Pediatria,CONTEXTUAL
+0408020245,225124,Procedimento,Pediatria,CONTEXTUAL
+0408050292,225124,Procedimento,Pediatria,CONTEXTUAL
+0408020229,225124,Procedimento,Pediatria,CONTEXTUAL
+0408050268,225124,Procedimento,Pediatria,CONTEXTUAL
+0408010126,225124,Procedimento,Pediatria,CONTEXTUAL
+0408050195,225124,Procedimento,Pediatria,CONTEXTUAL
+0404010270,225124,Procedimento,Pediatria,CONTEXTUAL
+0303070030,225124,Procedimento,Pediatria,CONTEXTUAL
+0404010300,225124,Procedimento,Pediatria,CONTEXTUAL
+0303070048,225124,Procedimento,Pediatria,CONTEXTUAL
+0404010318,225124,Procedimento,Pediatria,CONTEXTUAL
+0401010112,225124,Procedimento,Pediatria,CONTEXTUAL
+0301100152,225124,Procedimento,Pediatria,CONTEXTUAL
+0303090073,225124,Procedimento,Pediatria,CONTEXTUAL
+0303090090,225124,Procedimento,Pediatria,CONTEXTUAL
+0404010342,225124,Procedimento,Pediatria,CONTEXTUAL
+0303090120,225124,Procedimento,Pediatria,CONTEXTUAL
+0303090219,225124,Procedimento,Pediatria,CONTEXTUAL
+0303090200,225124,Procedimento,Pediatria,CONTEXTUAL
+0303090162,225124,Procedimento,Pediatria,CONTEXTUAL
+0303090260,225124,Procedimento,Pediatria,CONTEXTUAL
+0303090286,225124,Procedimento,Pediatria,CONTEXTUAL
+0303090154,225124,Procedimento,Pediatria,CONTEXTUAL
+0303090227,225124,Procedimento,Pediatria,CONTEXTUAL
+0301100012,223505,Procedimento,Enfermagem,ESPECIALIZADA
+0301100241,223505,Procedimento,Enfermagem,CONTEXTUAL
+0301100039,223505,Procedimento,Enfermagem,CONTEXTUAL
+0301100047,223505,Procedimento,Enfermagem,CONTEXTUAL
+0301100055,223505,Procedimento,Enfermagem,CONTEXTUAL
+0201020025,223505,Procedimento,Enfermagem,CONTEXTUAL
+0201020041,223505,Procedimento,Enfermagem,CONTEXTUAL
+0201020050,223505,Procedimento,Enfermagem,CONTEXTUAL
+0401010015,223505,Procedimento,Enfermagem,CONTEXTUAL
+0301100284,223505,Procedimento,Enfermagem,CONTEXTUAL
+0301100098,223505,Procedimento,Enfermagem,CONTEXTUAL
+0301100101,223505,Procedimento,Enfermagem,CONTEXTUAL
+0301100152,223505,Procedimento,Enfermagem,CONTEXTUAL
+0301100187,223505,Procedimento,Enfermagem,CONTEXTUAL
+0306020068,223505,Procedimento,Enfermagem,CONTEXTUAL
+0301070113,223810,Procedimento,Ginecologia e Obstetrícia,CONTEXTUAL
+0803010125,225125,Procedimento,TFD,TFD
+0803010109,225125,Procedimento,TFD,TFD
+0102010064,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010196,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010242,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010056,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010501,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010072,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010277,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010455,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010390,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010480,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010536,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010633,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010161,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010170,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010145,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010315,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010560,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010579,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010285,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010463,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010404,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010528,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010153,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010200,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010498,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010188,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010269,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010323,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010293,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010471,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0102010234,352210,Procedimento,Vigilância Sanitária,VIGILANCIA
+0414020073,223208,Procedimento Odontológico,Odontologia,CONTEXTUAL
+0414020219,223208,Procedimento Odontológico,Odontologia,CONTEXTUAL
+0701070099,223208,Procedimento Odontológico,Odontologia,CONTEXTUAL
+0701070099,223293,Procedimento Odontológico,Odontologia,CONTEXTUAL
+0701070102,223208,Procedimento Odontológico,Odontologia,CONTEXTUAL
+0701070102,223293,Procedimento Odontológico,Odontologia,CONTEXTUAL
+0701070129,223208,Procedimento Odontológico,Odontologia,CONTEXTUAL
+0701070129,223293,Procedimento Odontológico,Odontologia,CONTEXTUAL
+0701070137,223208,Procedimento Odontológico,Odontologia,CONTEXTUAL
+0701070137,223293,Procedimento Odontológico,Odontologia,CONTEXTUAL
+0414020278,223208,Procedimento Odontológico,Odontologia,CONTEXTUAL
+0307020053,223212,Procedimento Odontológico,Odontologia,CONTEXTUAL
+0214010015,225125,Testes Rápidos e POCT,,CONTEXTUAL
+0214010015,225270,Testes Rápidos e POCT,,CONTEXTUAL
+0214010015,322205,Testes Rápidos e POCT,,CONTEXTUAL
+0214010015,322230,Testes Rápidos e POCT,,CONTEXTUAL
+0214010015,223505,Testes Rápidos e POCT,,CONTEXTUAL
+0214010015,324205,Testes Rápidos e POCT,,CONTEXTUAL
+0214010058,221205,Testes Rápidos e POCT,,CONTEXTUAL
+0214010058,223415,Testes Rápidos e POCT,,CONTEXTUAL
+0214010058,223505,Testes Rápidos e POCT,,CONTEXTUAL
+0214010058,225125,Testes Rápidos e POCT,,CONTEXTUAL
+0214010163,223505,Testes Rápidos e POCT,,CONTEXTUAL
+0214010163,225124,Testes Rápidos e POCT,,CONTEXTUAL
+0214010163,225125,Testes Rápidos e POCT,,CONTEXTUAL
+0214010163,225270,Testes Rápidos e POCT,,CONTEXTUAL
+0214010163,322205,Testes Rápidos e POCT,,CONTEXTUAL
+0214010163,322230,Testes Rápidos e POCT,,CONTEXTUAL
+0214010074,221205,Testes Rápidos e POCT,,CONTEXTUAL
+0214010074,223415,Testes Rápidos e POCT,,CONTEXTUAL
+0214010074,223505,Testes Rápidos e POCT,,CONTEXTUAL
