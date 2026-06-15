@@ -623,3 +623,36 @@ cod_proced,descricao
 0803010109,Unid. de remuneração p/ deslocamento de acompanhante por transp. terrestre (cada 50 km de distância)
 0803010125,Unid. de remuneração p/ deslocamento de paciente por transp. terrestre (cada 50km)
 0102010153,Investigação de eventos adversos e/ou queixas técnicas
+0101050011,Consulta de profissional de nível superior na atenção básica (exceto médico)
+0202020215,Dosagem de glicose
+0202030563,Pesquisa de Bacilo Álcool-Ácido Resistente (BAAR) - direto
+0202030580,Pesquisa de fungos
+0202030954,Pesquisa e identificação de microorganismos
+0202031446,Cultura para fungos
+0202031470,Cultura para micobactérias
+0202031500,Cultura para outros microorganismos
+0202031535,Antibiograma
+0202050041,Teste rápido para diagnóstico de doenças infecciosas
+0202060314,Determinação de anticorpos específicos (imunologia)
+0202090132,Exame anatomopatológico de biópsia de tecidos
+0204030161,Ultrassonografia de abdômen total
+0205010059,Endoscopia digestiva alta diagnóstica
+0205020151,Colonoscopia diagnóstica
+0211050113,Biópsia de linfonodo
+0214010210,Radiografia periapical
+0214010228,Radiografia interproximal (Bite-Wing)
+0214010236,Radiografia oclusal
+0214010244,Série radiográfica periapical completa
+0214010279,Radiografia panorâmica dos maxilares
+0214010287,Telerradiografia em norma lateral
+0214010295,Tomografia computadorizada de face/seios paranasais
+0214010309,Análise cefalométrica
+0301010056,Consulta médica em atenção especializada
+0301030197,Consulta de pré-natal (risco habitual)
+0301050058,Consulta/atendimento em saúde mental
+0301080178,Atendimento de urgência com observação até 24 horas
+0301100195,Teleatendimento/teleconsulta
+0302040048,Tratamento de transtornos mentais em regime de atenção diária
+0303010240,Curativo grau II com ou sem desbridamento
+0306020041,Terapia nutricional enteral
+0409060089,Cirurgia ambulatorial odontológica sob anestesia geral

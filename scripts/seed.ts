@@ -89,7 +89,7 @@ async function batchInsert(
 
 	for (let i = 0; i < rows.length; i += chunkSize) {
 		const chunk = rows.slice(i, i + chunkSize);
-		await sql`INSERT INTO ${sql(tableName)} ${sql(chunk)} ON CONFLICT DO NOTHING`;
+		await sql`INSERT INTO producaosia.${sql(tableName)} ${sql(chunk)} ON CONFLICT DO NOTHING`;
 		inserted += chunk.length;
 	}
 	return inserted;
@@ -111,7 +111,7 @@ async function checkOrphans(
 	const orphans = await sql<{ cnes: string; comp: string }[]>`
     SELECT u.cnes, u.comp::text
     FROM   unnest(${sql.array(cnes)}::text[], ${sql.array(comps)}::date[]) AS u(cnes, comp)
-    LEFT   JOIN estabelecimentos e
+    LEFT   JOIN producaosia.estabelecimentos e
            ON  e.cod_cnes    = u.cnes
            AND e.competencia = u.comp::date
     WHERE  e.cod_cnes IS NULL

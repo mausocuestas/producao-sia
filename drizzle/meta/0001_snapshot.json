@@ -1,5 +1,5 @@
 {
-  "id": "a0621f04-a09c-4b46-b60d-0ee0b905b9b7",
+  "id": "92003e2b-a063-45e2-94ab-f72b17a01ef2",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -352,27 +352,6 @@
         }
       },
       "indexes": {
-        "uq_estabelecimentos_cnes_comp": {
-          "name": "uq_estabelecimentos_cnes_comp",
-          "columns": [
-            {
-              "expression": "cod_cnes",
-              "isExpression": false,
-              "asc": true,
-              "nulls": "last"
-            },
-            {
-              "expression": "competencia",
-              "isExpression": false,
-              "asc": true,
-              "nulls": "last"
-            }
-          ],
-          "isUnique": true,
-          "concurrently": false,
-          "method": "btree",
-          "with": {}
-        },
         "idx_estabelecimentos_cod_cnes": {
           "name": "idx_estabelecimentos_cod_cnes",
           "columns": [
@@ -406,7 +385,16 @@
       },
       "foreignKeys": {},
       "compositePrimaryKeys": {},
-      "uniqueConstraints": {},
+      "uniqueConstraints": {
+        "uq_estabelecimentos_cnes_comp": {
+          "name": "uq_estabelecimentos_cnes_comp",
+          "nullsNotDistinct": false,
+          "columns": [
+            "cod_cnes",
+            "competencia"
+          ]
+        }
+      },
       "policies": {},
       "checkConstraints": {},
       "isRLSEnabled": false

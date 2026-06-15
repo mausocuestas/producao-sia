@@ -7,6 +7,7 @@ import {
 	numeric,
 	index,
 	uniqueIndex,
+	unique,
 	foreignKey,
 	check
 } from 'drizzle-orm/pg-core';
@@ -119,7 +120,7 @@ export const estabelecimentos = producaosia.table(
 		location: text('location')
 	},
 	(t) => [
-		uniqueIndex('uq_estabelecimentos_cnes_comp').on(t.cod_cnes, t.competencia),
+		unique('uq_estabelecimentos_cnes_comp').on(t.cod_cnes, t.competencia),
 		index('idx_estabelecimentos_cod_cnes').on(t.cod_cnes),
 		index('idx_estabelecimentos_competencia').on(t.competencia)
 	]

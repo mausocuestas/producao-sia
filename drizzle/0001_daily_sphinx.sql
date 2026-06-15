@@ -50,7 +50,8 @@ CREATE TABLE "producaosia"."estabelecimentos" (
 	"status" text,
 	"telefone" text,
 	"diretor" text,
-	"location" text
+	"location" text,
+	CONSTRAINT "uq_estabelecimentos_cnes_comp" UNIQUE("cod_cnes","competencia")
 );
 --> statement-breakpoint
 CREATE TABLE "producaosia"."nomes_curtos" (
@@ -109,7 +110,6 @@ ALTER TABLE "producaosia"."profissionais_vinculos" ADD CONSTRAINT "fk_profission
 CREATE UNIQUE INDEX "uq_agrupamentos_proced_cbo" ON "producaosia"."agrupamentos" USING btree ("cod_proced","cod_cbo");--> statement-breakpoint
 CREATE INDEX "idx_agrupamentos_cod_proced" ON "producaosia"."agrupamentos" USING btree ("cod_proced");--> statement-breakpoint
 CREATE INDEX "idx_agrupamentos_cod_cbo" ON "producaosia"."agrupamentos" USING btree ("cod_cbo");--> statement-breakpoint
-CREATE UNIQUE INDEX "uq_estabelecimentos_cnes_comp" ON "producaosia"."estabelecimentos" USING btree ("cod_cnes","competencia");--> statement-breakpoint
 CREATE INDEX "idx_estabelecimentos_cod_cnes" ON "producaosia"."estabelecimentos" USING btree ("cod_cnes");--> statement-breakpoint
 CREATE INDEX "idx_estabelecimentos_competencia" ON "producaosia"."estabelecimentos" USING btree ("competencia");--> statement-breakpoint
 CREATE UNIQUE INDEX "uq_producao_sia" ON "producaosia"."producao_sia" USING btree ("cod_cnes","cod_proced","cod_cbo","competencia","situacao");--> statement-breakpoint
