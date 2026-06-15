@@ -133,6 +133,8 @@ Acolhimento, Visita e Intervenção Territorial · Materiais e OPMEs
 Grão: estabelecimento × procedimento × CBO × competência.
 **UNIQUE = `(cod_cnes, cod_proced, cod_cbo, competencia, situacao)`.**
 > A `situacao` entra na chave (Forma B): o mesmo proc+CBO numa competência pode ter linhas separadas por situação — ex.: parte aprovada (situação **vazia**), parte glosada ("APROVADO PARCIALMENTE (ULTRAPASSOU TETO...)"). Permite medir glosa por teto físico/financeiro. **"APROVADO TOTALMENTE" não é gravado — vira vazio** (situação só guarda motivos de glosa).
+>
+> **FKs: só `procedimentos` e `cbo` — NUNCA `agrupamentos`.** A produção é o fato real; pares proc+CBO ausentes em `agrupamentos` (frequentes em glosas) precisam subir. No JOIN com `agrupamentos`, ficam sem nível → "NÃO CLASSIFICADO" (vira relatório de combinações a mapear). Uma FK com `agrupamentos` barraria essas linhas e perderia as glosas.
 
 | Coluna | Tipo | Nulo? | Origem (CSV) | Observação |
 |---|---|---|---|---|
