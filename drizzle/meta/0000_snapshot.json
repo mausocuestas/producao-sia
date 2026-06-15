@@ -1,0 +1,997 @@
+{
+  "id": "a0621f04-a09c-4b46-b60d-0ee0b905b9b7",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "producaosia.agrupamentos": {
+      "name": "agrupamentos",
+      "schema": "producaosia",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "identity": {
+            "type": "byDefault",
+            "name": "agrupamentos_id_seq",
+            "schema": "producaosia",
+            "increment": "1",
+            "startWith": "1",
+            "minValue": "1",
+            "maxValue": "2147483647",
+            "cache": "1",
+            "cycle": false
+          }
+        },
+        "cod_proced": {
+          "name": "cod_proced",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "cod_cbo": {
+          "name": "cod_cbo",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "natureza": {
+          "name": "natureza",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "especialidade": {
+          "name": "especialidade",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "nivel_atencao": {
+          "name": "nivel_atencao",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {
+        "uq_agrupamentos_proced_cbo": {
+          "name": "uq_agrupamentos_proced_cbo",
+          "columns": [
+            {
+              "expression": "cod_proced",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "cod_cbo",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "idx_agrupamentos_cod_proced": {
+          "name": "idx_agrupamentos_cod_proced",
+          "columns": [
+            {
+              "expression": "cod_proced",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "idx_agrupamentos_cod_cbo": {
+          "name": "idx_agrupamentos_cod_cbo",
+          "columns": [
+            {
+              "expression": "cod_cbo",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "fk_agrupamentos_procedimentos": {
+          "name": "fk_agrupamentos_procedimentos",
+          "tableFrom": "agrupamentos",
+          "tableTo": "procedimentos",
+          "schemaTo": "producaosia",
+          "columnsFrom": [
+            "cod_proced"
+          ],
+          "columnsTo": [
+            "cod_proced"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "fk_agrupamentos_cbo": {
+          "name": "fk_agrupamentos_cbo",
+          "tableFrom": "agrupamentos",
+          "tableTo": "cbo",
+          "schemaTo": "producaosia",
+          "columnsFrom": [
+            "cod_cbo"
+          ],
+          "columnsTo": [
+            "cod_cbo"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {
+        "chk_agrupamentos_natureza": {
+          "name": "chk_agrupamentos_natureza",
+          "value": "natureza IN (\n        'Procedimento',\n        'Exame Laboratorial',\n        'Exame de Imagem / Diagnóstico',\n        'Consulta',\n        'Testes Rápidos e POCT',\n        'Procedimento Odontológico',\n        'Ações Coletivas e Educativas',\n        'Ações de Rede e Matriciamento',\n        'Acolhimento, Visita e Intervenção Territorial',\n        'Materiais e OPMEs'\n      )"
+        },
+        "chk_agrupamentos_nivel_atencao": {
+          "name": "chk_agrupamentos_nivel_atencao",
+          "value": "nivel_atencao IN (\n        'APS', 'ESPECIALIZADA', 'URGENCIA', 'HOSPITALAR',\n        'APOIO_DIAGNOSTICO', 'VIGILANCIA', 'TFD', 'CONTEXTUAL'\n      )"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "producaosia.cbo": {
+      "name": "cbo",
+      "schema": "producaosia",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "identity": {
+            "type": "byDefault",
+            "name": "cbo_id_seq",
+            "schema": "producaosia",
+            "increment": "1",
+            "startWith": "1",
+            "minValue": "1",
+            "maxValue": "2147483647",
+            "cache": "1",
+            "cycle": false
+          }
+        },
+        "cod_cbo": {
+          "name": "cod_cbo",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "descricao": {
+          "name": "descricao",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "uq_cbo_cod_cbo": {
+          "name": "uq_cbo_cod_cbo",
+          "nullsNotDistinct": false,
+          "columns": [
+            "cod_cbo"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "producaosia.cbos_aps": {
+      "name": "cbos_aps",
+      "schema": "producaosia",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "identity": {
+            "type": "byDefault",
+            "name": "cbos_aps_id_seq",
+            "schema": "producaosia",
+            "increment": "1",
+            "startWith": "1",
+            "minValue": "1",
+            "maxValue": "2147483647",
+            "cache": "1",
+            "cycle": false
+          }
+        },
+        "cod_cbo": {
+          "name": "cod_cbo",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "descricao": {
+          "name": "descricao",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "fk_cbos_aps_cbo": {
+          "name": "fk_cbos_aps_cbo",
+          "tableFrom": "cbos_aps",
+          "tableTo": "cbo",
+          "schemaTo": "producaosia",
+          "columnsFrom": [
+            "cod_cbo"
+          ],
+          "columnsTo": [
+            "cod_cbo"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "uq_cbos_aps_cod_cbo": {
+          "name": "uq_cbos_aps_cod_cbo",
+          "nullsNotDistinct": false,
+          "columns": [
+            "cod_cbo"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "producaosia.estabelecimentos": {
+      "name": "estabelecimentos",
+      "schema": "producaosia",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "identity": {
+            "type": "byDefault",
+            "name": "estabelecimentos_id_seq",
+            "schema": "producaosia",
+            "increment": "1",
+            "startWith": "1",
+            "minValue": "1",
+            "maxValue": "2147483647",
+            "cache": "1",
+            "cycle": false
+          }
+        },
+        "cod_cnes": {
+          "name": "cod_cnes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "competencia": {
+          "name": "competencia",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "nome_fantasia": {
+          "name": "nome_fantasia",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "cnpj": {
+          "name": "cnpj",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "tipo_estabelecimento": {
+          "name": "tipo_estabelecimento",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "nivel_atencao": {
+          "name": "nivel_atencao",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "status": {
+          "name": "status",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "telefone": {
+          "name": "telefone",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "diretor": {
+          "name": "diretor",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "location": {
+          "name": "location",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {
+        "uq_estabelecimentos_cnes_comp": {
+          "name": "uq_estabelecimentos_cnes_comp",
+          "columns": [
+            {
+              "expression": "cod_cnes",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "competencia",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "idx_estabelecimentos_cod_cnes": {
+          "name": "idx_estabelecimentos_cod_cnes",
+          "columns": [
+            {
+              "expression": "cod_cnes",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "idx_estabelecimentos_competencia": {
+          "name": "idx_estabelecimentos_competencia",
+          "columns": [
+            {
+              "expression": "competencia",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "producaosia.nomes_curtos": {
+      "name": "nomes_curtos",
+      "schema": "producaosia",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "identity": {
+            "type": "byDefault",
+            "name": "nomes_curtos_id_seq",
+            "schema": "producaosia",
+            "increment": "1",
+            "startWith": "1",
+            "minValue": "1",
+            "maxValue": "2147483647",
+            "cache": "1",
+            "cycle": false
+          }
+        },
+        "cod_cnes": {
+          "name": "cod_cnes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "nome_curto": {
+          "name": "nome_curto",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "nome_oficial": {
+          "name": "nome_oficial",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "uq_nomes_curtos_cod_cnes": {
+          "name": "uq_nomes_curtos_cod_cnes",
+          "nullsNotDistinct": false,
+          "columns": [
+            "cod_cnes"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "producaosia.procedimentos": {
+      "name": "procedimentos",
+      "schema": "producaosia",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "identity": {
+            "type": "byDefault",
+            "name": "procedimentos_id_seq",
+            "schema": "producaosia",
+            "increment": "1",
+            "startWith": "1",
+            "minValue": "1",
+            "maxValue": "2147483647",
+            "cache": "1",
+            "cycle": false
+          }
+        },
+        "cod_proced": {
+          "name": "cod_proced",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "descricao": {
+          "name": "descricao",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "uq_procedimentos_cod_proced": {
+          "name": "uq_procedimentos_cod_proced",
+          "nullsNotDistinct": false,
+          "columns": [
+            "cod_proced"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "producaosia.producao_sia": {
+      "name": "producao_sia",
+      "schema": "producaosia",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "identity": {
+            "type": "byDefault",
+            "name": "producao_sia_id_seq",
+            "schema": "producaosia",
+            "increment": "1",
+            "startWith": "1",
+            "minValue": "1",
+            "maxValue": "2147483647",
+            "cache": "1",
+            "cycle": false
+          }
+        },
+        "cod_cnes": {
+          "name": "cod_cnes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "competencia": {
+          "name": "competencia",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "cod_proced": {
+          "name": "cod_proced",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "cod_cbo": {
+          "name": "cod_cbo",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "qtd_apresentada": {
+          "name": "qtd_apresentada",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "qtd_aprovada": {
+          "name": "qtd_aprovada",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "val_apresentado": {
+          "name": "val_apresentado",
+          "type": "numeric(12, 2)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "val_aprovado": {
+          "name": "val_aprovado",
+          "type": "numeric(12, 2)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "situacao": {
+          "name": "situacao",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "is_glosada": {
+          "name": "is_glosada",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": false,
+          "generated": {
+            "as": "situacao IS NOT NULL AND situacao <> ''",
+            "type": "stored"
+          }
+        }
+      },
+      "indexes": {
+        "uq_producao_sia": {
+          "name": "uq_producao_sia",
+          "columns": [
+            {
+              "expression": "cod_cnes",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "cod_proced",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "cod_cbo",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "competencia",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "situacao",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "idx_producao_sia_cnes_comp": {
+          "name": "idx_producao_sia_cnes_comp",
+          "columns": [
+            {
+              "expression": "cod_cnes",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "competencia",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "idx_producao_sia_cod_proced": {
+          "name": "idx_producao_sia_cod_proced",
+          "columns": [
+            {
+              "expression": "cod_proced",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "idx_producao_sia_cod_cbo": {
+          "name": "idx_producao_sia_cod_cbo",
+          "columns": [
+            {
+              "expression": "cod_cbo",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "idx_producao_sia_competencia": {
+          "name": "idx_producao_sia_competencia",
+          "columns": [
+            {
+              "expression": "competencia",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "fk_producao_sia_estabelecimentos": {
+          "name": "fk_producao_sia_estabelecimentos",
+          "tableFrom": "producao_sia",
+          "tableTo": "estabelecimentos",
+          "schemaTo": "producaosia",
+          "columnsFrom": [
+            "cod_cnes",
+            "competencia"
+          ],
+          "columnsTo": [
+            "cod_cnes",
+            "competencia"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "fk_producao_sia_procedimentos": {
+          "name": "fk_producao_sia_procedimentos",
+          "tableFrom": "producao_sia",
+          "tableTo": "procedimentos",
+          "schemaTo": "producaosia",
+          "columnsFrom": [
+            "cod_proced"
+          ],
+          "columnsTo": [
+            "cod_proced"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "fk_producao_sia_cbo": {
+          "name": "fk_producao_sia_cbo",
+          "tableFrom": "producao_sia",
+          "tableTo": "cbo",
+          "schemaTo": "producaosia",
+          "columnsFrom": [
+            "cod_cbo"
+          ],
+          "columnsTo": [
+            "cod_cbo"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "producaosia.profissionais_vinculos": {
+      "name": "profissionais_vinculos",
+      "schema": "producaosia",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "identity": {
+            "type": "byDefault",
+            "name": "profissionais_vinculos_id_seq",
+            "schema": "producaosia",
+            "increment": "1",
+            "startWith": "1",
+            "minValue": "1",
+            "maxValue": "2147483647",
+            "cache": "1",
+            "cycle": false
+          }
+        },
+        "cod_cnes": {
+          "name": "cod_cnes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "competencia": {
+          "name": "competencia",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "profissional_nome": {
+          "name": "profissional_nome",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "cns": {
+          "name": "cns",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "cod_cbo": {
+          "name": "cod_cbo",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "ch_ambulatorial_sus": {
+          "name": "ch_ambulatorial_sus",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "ch_hospitalar_sus": {
+          "name": "ch_hospitalar_sus",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "ch_outros": {
+          "name": "ch_outros",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "vinculo": {
+          "name": "vinculo",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "equipe_nome": {
+          "name": "equipe_nome",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "equipe_ine": {
+          "name": "equipe_ine",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "equipe_tipo": {
+          "name": "equipe_tipo",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {
+        "uq_profissionais_vinculos": {
+          "name": "uq_profissionais_vinculos",
+          "columns": [
+            {
+              "expression": "cod_cnes",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "cod_cbo",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "cns",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "competencia",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "idx_profissionais_vinculos_cnes_comp": {
+          "name": "idx_profissionais_vinculos_cnes_comp",
+          "columns": [
+            {
+              "expression": "cod_cnes",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "competencia",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "idx_profissionais_vinculos_cns": {
+          "name": "idx_profissionais_vinculos_cns",
+          "columns": [
+            {
+              "expression": "cns",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "idx_profissionais_vinculos_cod_cbo": {
+          "name": "idx_profissionais_vinculos_cod_cbo",
+          "columns": [
+            {
+              "expression": "cod_cbo",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "fk_profissionais_vinculos_estabelecimentos": {
+          "name": "fk_profissionais_vinculos_estabelecimentos",
+          "tableFrom": "profissionais_vinculos",
+          "tableTo": "estabelecimentos",
+          "schemaTo": "producaosia",
+          "columnsFrom": [
+            "cod_cnes",
+            "competencia"
+          ],
+          "columnsTo": [
+            "cod_cnes",
+            "competencia"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "fk_profissionais_vinculos_cbo": {
+          "name": "fk_profissionais_vinculos_cbo",
+          "tableFrom": "profissionais_vinculos",
+          "tableTo": "cbo",
+          "schemaTo": "producaosia",
+          "columnsFrom": [
+            "cod_cbo"
+          ],
+          "columnsTo": [
+            "cod_cbo"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {},
+  "schemas": {
+    "producaosia": "producaosia"
+  },
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

@@ -15,7 +15,12 @@
 		"db:push": "drizzle-kit push",
 		"db:generate": "drizzle-kit generate",
 		"db:migrate": "drizzle-kit migrate",
-		"db:studio": "drizzle-kit studio"
+		"db:studio": "drizzle-kit studio",
+		"db:seed": "tsx scripts/seed.ts",
+		"db:views": "tsx scripts/apply-views.ts"
+	},
+	"dependencies": {
+		"dotenv": "^16.5.0"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
@@ -41,6 +46,7 @@
 		"svelte-check": "^4.6.0",
 		"tailwindcss": "^4.3.0",
 		"typescript": "^6.0.3",
+		"tsx": "^4.20.3",
 		"typescript-eslint": "^8.60.1",
 		"vite": "^8.0.16"
 	}
